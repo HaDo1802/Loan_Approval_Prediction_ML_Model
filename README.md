@@ -18,8 +18,10 @@ The project begins by uploading a dataset named "loan_approval_dataset.csv," whi
 
 **2.2 Feature Engineering**  
 New features are created to simplify the dataset. A new 'Assets' column is introduced, representing the total value of residential, commercial, luxury, and bank assets. Redundant asset-related columns are then dropped to streamline the dataset.
+
 **2.3 Handling Missing Values**  
 The dataset is checked for missing values, ensuring data quality. Fortunately, no missing values are found. The 'education' column is cleaned by removing leading and trailing spaces for uniformity.
+
 **2.4 Encoding Categorical Variables**  
 Categorical variables such as 'education,' 'self_employed,' and 'loan_status' are encoded into numerical format for compatibility with machine learning algorithms. For example, 'Graduate' and 'Not Graduate' in the 'education' column are replaced with 1 and 0, respectively.
 <div id='cau3'/>
